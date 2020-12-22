@@ -1,6 +1,8 @@
 # QR Code Generator with Python
 
 Project's frontend is fully made upon HTML and CSS (web), and all the backend stuff i.e, QR code generation is done python (QR-Code.py).
+
+
 ![](UI_1.png)
 
 ![](UI_2.png)
