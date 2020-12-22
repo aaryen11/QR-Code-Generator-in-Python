@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>QR Code Generator</title>
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- js -->
+      <script type="text/javascript" src="/eel.js"></script>
+      <script type="text/javascript" src="js/main.js"></script>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <section >
+         <div id="main_slider" class="section carousel slide banner-main" data-ride="carousel">
+
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="row marginii">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="carousel-caption ">
+                              <h1>QR  <strong class="color">Code Generator</strong></h1>
+                              <h3 class="text-white">Turn any piece of text into a QR code.</h3>
+                              <div class="wrap-input100 m-b-10" >
+                                 <form class="form-inline">
+                                    <input class="input100" type="text" id="data" placeholder="Enter Text Here">
+                                    <div class="pl-4">
+                                       <a class="btn btn-lg btn-primary" role="button" onclick="generateQRCode()">Generate</a>
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                           <div class="code-img pl-4 pt-4" >
+                              <img id="qr" src="" width="70%">
+                          </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </body>
+</html>
